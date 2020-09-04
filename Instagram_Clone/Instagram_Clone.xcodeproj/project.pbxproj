@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF8F51DA25026C800071153F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F51D925026C800071153F /* AppDelegate.swift */; };
+		CF8F51E025026C810071153F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8F51DF25026C810071153F /* Assets.xcassets */; };
+		CF8F51E625026C810071153F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8F51E425026C810071153F /* LaunchScreen.storyboard */; };
+		CF8F520A25026CEB0071153F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F520925026CEB0071153F /* HomeViewController.swift */; };
+		CFBD1782250284BB00AFE88C /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD1781250284BB00AFE88C /* ExploreViewController.swift */; };
+		CFBD1784250284EC00AFE88C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD1783250284EC00AFE88C /* CameraViewController.swift */; };
+		CFBD1786250284F300AFE88C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD1785250284F300AFE88C /* NotificationViewController.swift */; };
+		CFBD17882502850000AFE88C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD17872502850000AFE88C /* ProfileViewController.swift */; };
+		FC1EF98038389D1DB5FE0C33 /* Pods_Instagram_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19F56BAD35B11A0E4714E0A /* Pods_Instagram_Clone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C19F56BAD35B11A0E4714E0A /* Pods_Instagram_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8F51D625026C800071153F /* Instagram_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8F51D925026C800071153F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF8F51DF25026C810071153F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF8F51E525026C810071153F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF8F51E725026C810071153F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8F520925026CEB0071153F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CFBD1781250284BB00AFE88C /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		CFBD1783250284EC00AFE88C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		CFBD1785250284F300AFE88C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		CFBD17872502850000AFE88C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FA2D9912118F69D341B4C7DD /* Pods-Instagram_Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram_Clone.release.xcconfig"; path = "Target Support Files/Pods-Instagram_Clone/Pods-Instagram_Clone.release.xcconfig"; sourceTree = "<group>"; };
+		FC8AC9F6DBD56D7E37FCDB92 /* Pods-Instagram_Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram_Clone.debug.xcconfig"; path = "Target Support Files/Pods-Instagram_Clone/Pods-Instagram_Clone.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF8F51D325026C800071153F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1EF98038389D1DB5FE0C33 /* Pods_Instagram_Clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F688C4A5D0D9751E9B1FEBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC8AC9F6DBD56D7E37FCDB92 /* Pods-Instagram_Clone.debug.xcconfig */,
+				FA2D9912118F69D341B4C7DD /* Pods-Instagram_Clone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9BBBA00517359803DCB56080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C19F56BAD35B11A0E4714E0A /* Pods_Instagram_Clone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF8F51CD25026C800071153F = {
+			isa = PBXGroup;
+			children = (
+				CF8F51D825026C800071153F /* Instagram_Clone */,
+				CF8F51D725026C800071153F /* Products */,
+				0F688C4A5D0D9751E9B1FEBF /* Pods */,
+				9BBBA00517359803DCB56080 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8F51D725026C800071153F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F51D625026C800071153F /* Instagram_Clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8F51D825026C800071153F /* Instagram_Clone */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F520E25026DA00071153F /* Resource */,
+				CF8F520D25026D9C0071153F /* Models */,
+				CF8F520C25026D950071153F /* Views */,
+				CF8F520B25026D8D0071153F /* Controllers */,
+				CF8F51E725026C810071153F /* Info.plist */,
+			);
+			path = Instagram_Clone;
+			sourceTree = "<group>";
+		};
+		CF8F520B25026D8D0071153F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD1780250284A300AFE88C /* CoreTabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CF8F520C25026D950071153F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F51DF25026C810071153F /* Assets.xcassets */,
+				CFBD177F2502838200AFE88C /* StoryBoard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF8F520D25026D9C0071153F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF8F520E25026DA00071153F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F51D925026C800071153F /* AppDelegate.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CFBD177F2502838200AFE88C /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F51E425026C810071153F /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		CFBD1780250284A300AFE88C /* CoreTabs */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F520925026CEB0071153F /* HomeViewController.swift */,
+				CFBD1781250284BB00AFE88C /* ExploreViewController.swift */,
+				CFBD1783250284EC00AFE88C /* CameraViewController.swift */,
+				CFBD1785250284F300AFE88C /* NotificationViewController.swift */,
+				CFBD17872502850000AFE88C /* ProfileViewController.swift */,
+			);
+			path = CoreTabs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF8F51D525026C800071153F /* Instagram_Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8F520025026C810071153F /* Build configuration list for PBXNativeTarget "Instagram_Clone" */;
+			buildPhases = (
+				BACCA6D31A6D5153BFBB0C0D /* [CP] Check Pods Manifest.lock */,
+				CF8F51D225026C800071153F /* Sources */,
+				CF8F51D325026C800071153F /* Frameworks */,
+				CF8F51D425026C800071153F /* Resources */,
+				2EB7FB0224314ACB96CDD2ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instagram_Clone;
+			productName = Instagram_Clone;
+			productReference = CF8F51D625026C800071153F /* Instagram_Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF8F51CE25026C800071153F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Dang Trung Hieu";
+				TargetAttributes = {
+					CF8F51D525026C800071153F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = CF8F51D125026C800071153F /* Build configuration list for PBXProject "Instagram_Clone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF8F51CD25026C800071153F;
+			productRefGroup = CF8F51D725026C800071153F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF8F51D525026C800071153F /* Instagram_Clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF8F51D425026C800071153F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8F51E625026C810071153F /* LaunchScreen.storyboard in Resources */,
+				CF8F51E025026C810071153F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EB7FB0224314ACB96CDD2ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instagram_Clone/Pods-Instagram_Clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instagram_Clone/Pods-Instagram_Clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Instagram_Clone/Pods-Instagram_Clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BACCA6D31A6D5153BFBB0C0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Instagram_Clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF8F51D225026C800071153F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBD17882502850000AFE88C /* ProfileViewController.swift in Sources */,
+				CFBD1786250284F300AFE88C /* NotificationViewController.swift in Sources */,
+				CF8F51DA25026C800071153F /* AppDelegate.swift in Sources */,
+				CFBD1784250284EC00AFE88C /* CameraViewController.swift in Sources */,
+				CF8F520A25026CEB0071153F /* HomeViewController.swift in Sources */,
+				CFBD1782250284BB00AFE88C /* ExploreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF8F51E425026C810071153F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8F51E525026C810071153F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF8F51FE25026C810071153F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF8F51FF25026C810071153F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF8F520125026C810071153F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8AC9F6DBD56D7E37FCDB92 /* Pods-Instagram_Clone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LCVSKDA3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Instagram_Clone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trunghieudang.Instagram-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF8F520225026C810071153F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2D9912118F69D341B4C7DD /* Pods-Instagram_Clone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98LCVSKDA3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Instagram_Clone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trunghieudang.Instagram-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF8F51D125026C800071153F /* Build configuration list for PBXProject "Instagram_Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8F51FE25026C810071153F /* Debug */,
+				CF8F51FF25026C810071153F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8F520025026C810071153F /* Build configuration list for PBXNativeTarget "Instagram_Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8F520125026C810071153F /* Debug */,
+				CF8F520225026C810071153F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF8F51CE25026C800071153F /* Project object */;
+}
