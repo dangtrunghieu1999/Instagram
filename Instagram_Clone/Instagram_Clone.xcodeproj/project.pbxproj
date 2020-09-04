@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF35CBC4250290E600611C3C /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35CBC3250290E600611C3C /* PostEditorViewController.swift */; };
+		CF35CBC62502910200611C3C /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35CBC52502910200611C3C /* PublishPostViewController.swift */; };
+		CF35CBC92502920300611C3C /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35CBC82502920300611C3C /* DatabaseManager.swift */; };
+		CF35CBCB250292B200611C3C /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35CBCA250292B200611C3C /* AuthManager.swift */; };
+		CF35CBCD250292F500611C3C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35CBCC250292F500611C3C /* StorageManager.swift */; };
+		CF35CBD0250295D700611C3C /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35CBCF250295D700611C3C /* ImageManager.swift */; };
+		CF35CBD2250295EF00611C3C /* TextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35CBD1250295EF00611C3C /* TextManager.swift */; };
+		CF35CBD72502963000611C3C /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35CBD62502963000611C3C /* UIFont+Extension.swift */; };
+		CF35CBD92502964100611C3C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35CBD82502964100611C3C /* UIColor+Extension.swift */; };
+		CF35CBDC2502969900611C3C /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF35CBDB2502969900611C3C /* Dimension.swift */; };
 		CF8F51DA25026C800071153F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F51D925026C800071153F /* AppDelegate.swift */; };
 		CF8F51E025026C810071153F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8F51DF25026C810071153F /* Assets.xcassets */; };
 		CF8F51E625026C810071153F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8F51E425026C810071153F /* LaunchScreen.storyboard */; };
@@ -30,6 +40,16 @@
 
 /* Begin PBXFileReference section */
 		C19F56BAD35B11A0E4714E0A /* Pods_Instagram_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF35CBC3250290E600611C3C /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		CF35CBC52502910200611C3C /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		CF35CBC82502920300611C3C /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		CF35CBCA250292B200611C3C /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		CF35CBCC250292F500611C3C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		CF35CBCF250295D700611C3C /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		CF35CBD1250295EF00611C3C /* TextManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextManager.swift; sourceTree = "<group>"; };
+		CF35CBD62502963000611C3C /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		CF35CBD82502964100611C3C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CF35CBDB2502969900611C3C /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
 		CF8F51D625026C800071153F /* Instagram_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8F51D925026C800071153F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF8F51DF25026C810071153F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +103,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CF35CBC72502910800611C3C /* General */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4E78425028C0B002433E7 /* PostViewController.swift */,
+				CFB4E78625028C18002433E7 /* EditProfileViewController.swift */,
+				CFB4E78825028C21002433E7 /* SettingViewController.swift */,
+				CFB4E78A25028C26002433E7 /* ListViewController.swift */,
+				CFB4E78C25028C32002433E7 /* SearchViewController.swift */,
+				CFB4E78E25028C3A002433E7 /* SearchResultViewController.swift */,
+				CF35CBC3250290E600611C3C /* PostEditorViewController.swift */,
+				CF35CBC52502910200611C3C /* PublishPostViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		CF35CBCE2502958000611C3C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CF35CBCF250295D700611C3C /* ImageManager.swift */,
+				CF35CBD1250295EF00611C3C /* TextManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CF35CBD42502960600611C3C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CF35CBD52502961700611C3C /* UIKit */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CF35CBD52502961700611C3C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				CF35CBD62502963000611C3C /* UIFont+Extension.swift */,
+				CF35CBD82502964100611C3C /* UIColor+Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		CF35CBDA2502968500611C3C /* Dimension */ = {
+			isa = PBXGroup;
+			children = (
+				CF35CBDB2502969900611C3C /* Dimension.swift */,
+			);
+			path = Dimension;
+			sourceTree = "<group>";
+		};
 		CF8F51CD25026C800071153F = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +173,10 @@
 		CF8F51D825026C800071153F /* Instagram_Clone */ = {
 			isa = PBXGroup;
 			children = (
-				CF8F520E25026DA00071153F /* Resource */,
+				CF8F520E25026DA00071153F /* Resources */,
+				CF35CBCE2502958000611C3C /* Managers */,
+				CF35CBD42502960600611C3C /* Extension */,
+				CF35CBDA2502968500611C3C /* Dimension */,
 				CF8F520D25026D9C0071153F /* Models */,
 				CF8F520C25026D950071153F /* Views */,
 				CF8F520B25026D8D0071153F /* Controllers */,
@@ -138,25 +210,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		CF8F520E25026DA00071153F /* Resource */ = {
+		CF8F520E25026DA00071153F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				CFB4E77C25028A96002433E7 /* GoogleService-Info.plist */,
 				CF8F51D925026C800071153F /* AppDelegate.swift */,
+				CF35CBC82502920300611C3C /* DatabaseManager.swift */,
+				CF35CBCA250292B200611C3C /* AuthManager.swift */,
+				CF35CBCC250292F500611C3C /* StorageManager.swift */,
 			);
-			path = Resource;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		CFB4E78225028BEB002433E7 /* Other */ = {
 			isa = PBXGroup;
 			children = (
 				CFB4E78325028BFB002433E7 /* Onboarding */,
-				CFB4E78425028C0B002433E7 /* PostViewController.swift */,
-				CFB4E78625028C18002433E7 /* EditProfileViewController.swift */,
-				CFB4E78825028C21002433E7 /* SettingViewController.swift */,
-				CFB4E78A25028C26002433E7 /* ListViewController.swift */,
-				CFB4E78C25028C32002433E7 /* SearchViewController.swift */,
-				CFB4E78E25028C3A002433E7 /* SearchResultViewController.swift */,
+				CF35CBC72502910800611C3C /* General */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -308,19 +378,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFB4E78725028C18002433E7 /* EditProfileViewController.swift in Sources */,
+				CF35CBCB250292B200611C3C /* AuthManager.swift in Sources */,
 				CFB4E78D25028C32002433E7 /* SearchViewController.swift in Sources */,
 				CFBD17882502850000AFE88C /* ProfileViewController.swift in Sources */,
 				CFBD1786250284F300AFE88C /* NotificationViewController.swift in Sources */,
+				CF35CBC92502920300611C3C /* DatabaseManager.swift in Sources */,
 				CFB4E78525028C0B002433E7 /* PostViewController.swift in Sources */,
 				CF8F51DA25026C800071153F /* AppDelegate.swift in Sources */,
+				CF35CBDC2502969900611C3C /* Dimension.swift in Sources */,
+				CF35CBC62502910200611C3C /* PublishPostViewController.swift in Sources */,
+				CF35CBCD250292F500611C3C /* StorageManager.swift in Sources */,
+				CF35CBD72502963000611C3C /* UIFont+Extension.swift in Sources */,
 				CFB4E78925028C21002433E7 /* SettingViewController.swift in Sources */,
+				CF35CBD0250295D700611C3C /* ImageManager.swift in Sources */,
 				CFBD1784250284EC00AFE88C /* CameraViewController.swift in Sources */,
 				CFB4E79325028C8E002433E7 /* RegistrantionViewController.swift in Sources */,
 				CF8F520A25026CEB0071153F /* HomeViewController.swift in Sources */,
 				CFB4E78B25028C26002433E7 /* ListViewController.swift in Sources */,
+				CF35CBD92502964100611C3C /* UIColor+Extension.swift in Sources */,
+				CF35CBC4250290E600611C3C /* PostEditorViewController.swift in Sources */,
 				CFB4E78F25028C3A002433E7 /* SearchResultViewController.swift in Sources */,
 				CFB4E79125028C7B002433E7 /* LoginViewController.swift in Sources */,
 				CFBD1782250284BB00AFE88C /* ExploreViewController.swift in Sources */,
+				CF35CBD2250295EF00611C3C /* TextManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
