@@ -11,6 +11,16 @@
 		CF8F51E025026C810071153F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8F51DF25026C810071153F /* Assets.xcassets */; };
 		CF8F51E625026C810071153F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8F51E425026C810071153F /* LaunchScreen.storyboard */; };
 		CF8F520A25026CEB0071153F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F520925026CEB0071153F /* HomeViewController.swift */; };
+		CFB4E77D25028A97002433E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFB4E77C25028A96002433E7 /* GoogleService-Info.plist */; };
+		CFB4E78125028AEA002433E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB4E78025028AEA002433E7 /* Main.storyboard */; };
+		CFB4E78525028C0B002433E7 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E78425028C0B002433E7 /* PostViewController.swift */; };
+		CFB4E78725028C18002433E7 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E78625028C18002433E7 /* EditProfileViewController.swift */; };
+		CFB4E78925028C21002433E7 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E78825028C21002433E7 /* SettingViewController.swift */; };
+		CFB4E78B25028C26002433E7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E78A25028C26002433E7 /* ListViewController.swift */; };
+		CFB4E78D25028C32002433E7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E78C25028C32002433E7 /* SearchViewController.swift */; };
+		CFB4E78F25028C3A002433E7 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E78E25028C3A002433E7 /* SearchResultViewController.swift */; };
+		CFB4E79125028C7B002433E7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E79025028C7B002433E7 /* LoginViewController.swift */; };
+		CFB4E79325028C8E002433E7 /* RegistrantionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E79225028C8E002433E7 /* RegistrantionViewController.swift */; };
 		CFBD1782250284BB00AFE88C /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD1781250284BB00AFE88C /* ExploreViewController.swift */; };
 		CFBD1784250284EC00AFE88C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD1783250284EC00AFE88C /* CameraViewController.swift */; };
 		CFBD1786250284F300AFE88C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD1785250284F300AFE88C /* NotificationViewController.swift */; };
@@ -26,6 +36,16 @@
 		CF8F51E525026C810071153F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF8F51E725026C810071153F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF8F520925026CEB0071153F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CFB4E77C25028A96002433E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFB4E78025028AEA002433E7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CFB4E78425028C0B002433E7 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		CFB4E78625028C18002433E7 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		CFB4E78825028C21002433E7 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		CFB4E78A25028C26002433E7 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CFB4E78C25028C32002433E7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CFB4E78E25028C3A002433E7 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		CFB4E79025028C7B002433E7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CFB4E79225028C8E002433E7 /* RegistrantionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrantionViewController.swift; sourceTree = "<group>"; };
 		CFBD1781250284BB00AFE88C /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		CFBD1783250284EC00AFE88C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		CFBD1785250284F300AFE88C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +116,7 @@
 		CF8F520B25026D8D0071153F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CFB4E78225028BEB002433E7 /* Other */,
 				CFBD1780250284A300AFE88C /* CoreTabs */,
 			);
 			path = Controllers;
@@ -120,15 +141,40 @@
 		CF8F520E25026DA00071153F /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				CFB4E77C25028A96002433E7 /* GoogleService-Info.plist */,
 				CF8F51D925026C800071153F /* AppDelegate.swift */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		CFB4E78225028BEB002433E7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4E78325028BFB002433E7 /* Onboarding */,
+				CFB4E78425028C0B002433E7 /* PostViewController.swift */,
+				CFB4E78625028C18002433E7 /* EditProfileViewController.swift */,
+				CFB4E78825028C21002433E7 /* SettingViewController.swift */,
+				CFB4E78A25028C26002433E7 /* ListViewController.swift */,
+				CFB4E78C25028C32002433E7 /* SearchViewController.swift */,
+				CFB4E78E25028C3A002433E7 /* SearchResultViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CFB4E78325028BFB002433E7 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4E79025028C7B002433E7 /* LoginViewController.swift */,
+				CFB4E79225028C8E002433E7 /* RegistrantionViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		CFBD177F2502838200AFE88C /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
 				CF8F51E425026C810071153F /* LaunchScreen.storyboard */,
+				CFB4E78025028AEA002433E7 /* Main.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -207,6 +253,8 @@
 			files = (
 				CF8F51E625026C810071153F /* LaunchScreen.storyboard in Resources */,
 				CF8F51E025026C810071153F /* Assets.xcassets in Resources */,
+				CFB4E77D25028A97002433E7 /* GoogleService-Info.plist in Resources */,
+				CFB4E78125028AEA002433E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,11 +307,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB4E78725028C18002433E7 /* EditProfileViewController.swift in Sources */,
+				CFB4E78D25028C32002433E7 /* SearchViewController.swift in Sources */,
 				CFBD17882502850000AFE88C /* ProfileViewController.swift in Sources */,
 				CFBD1786250284F300AFE88C /* NotificationViewController.swift in Sources */,
+				CFB4E78525028C0B002433E7 /* PostViewController.swift in Sources */,
 				CF8F51DA25026C800071153F /* AppDelegate.swift in Sources */,
+				CFB4E78925028C21002433E7 /* SettingViewController.swift in Sources */,
 				CFBD1784250284EC00AFE88C /* CameraViewController.swift in Sources */,
+				CFB4E79325028C8E002433E7 /* RegistrantionViewController.swift in Sources */,
 				CF8F520A25026CEB0071153F /* HomeViewController.swift in Sources */,
+				CFB4E78B25028C26002433E7 /* ListViewController.swift in Sources */,
+				CFB4E78F25028C3A002433E7 /* SearchResultViewController.swift in Sources */,
+				CFB4E79125028C7B002433E7 /* LoginViewController.swift in Sources */,
 				CFBD1782250284BB00AFE88C /* ExploreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
