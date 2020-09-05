@@ -31,6 +31,7 @@
 		CFB4E78F25028C3A002433E7 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E78E25028C3A002433E7 /* SearchResultViewController.swift */; };
 		CFB4E79125028C7B002433E7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E79025028C7B002433E7 /* LoginViewController.swift */; };
 		CFB4E79325028C8E002433E7 /* RegistrantionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4E79225028C8E002433E7 /* RegistrantionViewController.swift */; };
+		CFBA8C9525039BEB00E699C1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA8C9425039BEB00E699C1 /* BaseViewController.swift */; };
 		CFBD1782250284BB00AFE88C /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD1781250284BB00AFE88C /* ExploreViewController.swift */; };
 		CFBD1784250284EC00AFE88C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD1783250284EC00AFE88C /* CameraViewController.swift */; };
 		CFBD1786250284F300AFE88C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD1785250284F300AFE88C /* NotificationViewController.swift */; };
@@ -66,6 +67,7 @@
 		CFB4E78E25028C3A002433E7 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		CFB4E79025028C7B002433E7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CFB4E79225028C8E002433E7 /* RegistrantionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrantionViewController.swift; sourceTree = "<group>"; };
+		CFBA8C9425039BEB00E699C1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CFBD1781250284BB00AFE88C /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		CFBD1783250284EC00AFE88C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		CFBD1785250284F300AFE88C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			children = (
 				CF8F520E25026DA00071153F /* Resources */,
 				CF35CBCE2502958000611C3C /* Managers */,
+				CFBA8C9325039BCC00E699C1 /* Bases */,
 				CF35CBD42502960600611C3C /* Extension */,
 				CF35CBDA2502968500611C3C /* Dimension */,
 				CF8F520D25026D9C0071153F /* Models */,
@@ -238,6 +241,14 @@
 				CFB4E79225028C8E002433E7 /* RegistrantionViewController.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CFBA8C9325039BCC00E699C1 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA8C9425039BEB00E699C1 /* BaseViewController.swift */,
+			);
+			path = Bases;
 			sourceTree = "<group>";
 		};
 		CFBD177F2502838200AFE88C /* StoryBoard */ = {
@@ -397,6 +408,7 @@
 				CFB4E78B25028C26002433E7 /* ListViewController.swift in Sources */,
 				CF35CBD92502964100611C3C /* UIColor+Extension.swift in Sources */,
 				CF35CBC4250290E600611C3C /* PostEditorViewController.swift in Sources */,
+				CFBA8C9525039BEB00E699C1 /* BaseViewController.swift in Sources */,
 				CFB4E78F25028C3A002433E7 /* SearchResultViewController.swift in Sources */,
 				CFB4E79125028C7B002433E7 /* LoginViewController.swift in Sources */,
 				CFBD1782250284BB00AFE88C /* ExploreViewController.swift in Sources */,

@@ -20,4 +20,6 @@ final class ImageManager {
     static let photo                                = UIImage(named: "photo")
     static let activity                             = UIImage(named: "activity")
     static let profile                              = UIImage(named: "profile")
+    
+    static let close                                = UIImage(named: "close")
 }

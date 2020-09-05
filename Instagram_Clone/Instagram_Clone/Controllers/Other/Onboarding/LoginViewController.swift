@@ -29,7 +29,7 @@ class LoginViewController: UIViewController {
         textField.autocorrectionType = .no
         textField.autocapitalizationType = .none
         textField.keyboardType = .emailAddress
-        textField.placeholder = TextManager.signInUserNamePlaceHolder
+        textField.placeholder = TextManager.signInUserName
         textField.borderStyle = .roundedRect
         textField.font = UIFont.systemFont(ofSize: FontSize.h1.rawValue)
         textField.backgroundColor = UIColor(white: 0, alpha: 0.01)
@@ -41,7 +41,7 @@ class LoginViewController: UIViewController {
     private lazy var passwordTextField: UITextField = {
         let textField = UITextField()
         textField.isSecureTextEntry = true
-        textField.placeholder = TextManager.passwordPlaceHolder
+        textField.placeholder = TextManager.password
         textField.borderStyle = .roundedRect
         textField.font = UIFont.systemFont(ofSize: FontSize.h1.rawValue)
         textField.backgroundColor = UIColor(white: 0, alpha: 0.01)
@@ -69,7 +69,7 @@ class LoginViewController: UIViewController {
         button.isEnabled = false
         button.layer.cornerRadius = 5
         button.titleLabel?.font = UIFont.systemFont(ofSize: FontSize.h1.rawValue)
-        button.addTarget(self, action: #selector(tapOnSignIn), for: .touchUpInside)
+        button.addTarget(self, action: #selector(tapOnSignUp), for: .touchUpInside)
         return button
     }()
     
@@ -162,22 +162,35 @@ class LoginViewController: UIViewController {
     }
     
     @objc private func tapOnSignIn() {
-        guard let username = usernameTextField.text else { return }
+        guard let usernameEmail = usernameTextField.text else { return }
         guard let password = passwordTextField.text else { return }
-        usernameTextField.isEnabled = false
-        passwordTextField.isEnabled = false
-        signInButton.isEnabled = false
-        signInButton.backgroundColor = UIColor.disableColor
+    
+        var username: String?
+        var email   : String?
         
-        if username != "" && password != "" {
-            let vc = HomeViewController()
-            navigationController?.pushViewController(vc, animated: true)
+        if usernameEmail.contains("@"), usernameEmail.contains(".") {
+            email = usernameEmail
+        } else {
+            username = usernameEmail
         }
+        
+        AuthManager.shared.loginUser(username: username, email: email, password: password) { (success) in
+            DispatchQueue.main.async {
+                if success {
+                    self.dismiss(animated: true, completion: nil)
+                } else {
+                    let alert = UIAlertController(title: "Lỗi đăng nhập", message: "Vui lòng đăng nhập lại", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "Bỏ qua", style: .cancel, handler: nil))
+                    self.present(alert, animated: true)
+                }
+            }
+        }
+        
     }
     
     @objc private func tapOnSignUp() {
         let vc = RegistrantionViewController()
-        navigationController?.pushViewController(vc, animated: true)
+        self.present(UINavigationController(rootViewController: vc), animated: true)
     }
     
     private func endEditingKeyBoard() {

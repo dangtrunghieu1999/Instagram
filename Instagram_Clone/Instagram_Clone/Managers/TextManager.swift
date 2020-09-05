@@ -9,11 +9,14 @@
 import UIKit
 
 final class TextManager {
-    static let signInUserNamePlaceHolder  = "Số điện thoại, tên người dùng hoặc email"
-    static let passwordPlaceHolder        = "Mật khẩu"
+    static let signInUserName             = "Số điện thoại, tên người dùng hoặc email"
+    static let password                   = "Mật khẩu"
+    static let confirmPassword            = "Nhập lại mật khẩu"
     static let signInButton               = "Đăng nhập"
+    static let signOutButton              = "Đăng ký"
     static let forgotPasswordButton       = "Quên mật khẩu?"
-    
+    static let username                   = "Tên người dùng"
+    static let email                      = "Email"
     static let signInFacebook             = "Đăng nhập bằng Facebook"
     
 }
