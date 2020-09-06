@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RegistrantionViewController: BaseViewController {
+class SignUpViewController: BaseViewController {
     
     
     // MARK: - Varibales
@@ -65,9 +65,9 @@ class RegistrantionViewController: BaseViewController {
     }()
     
 
-    private let registerButton: UIButton = {
+    private let signUpButton: UIButton = {
         let button = UIButton()
-        button.setTitle(TextManager.signOutButton, for: .normal)
+        button.setTitle(TextManager.signUp, for: .normal)
         button.backgroundColor = UIColor.disableColor
         button.layer.masksToBounds = true
         button.setTitleColor(UIColor.white, for: .normal)
@@ -90,7 +90,7 @@ class RegistrantionViewController: BaseViewController {
         layoutUsernameTextField()
         layoutEmailTextField()
         layoutPasswordTextField()
-        layoutSignOutButton()
+        layoutSignUpButton()
     }
     
     
@@ -112,11 +112,11 @@ class RegistrantionViewController: BaseViewController {
             && emailTextField.text?.isEmpty == false
            
         if isFormValid {
-            registerButton.isEnabled = true
-            registerButton.backgroundColor = UIColor.enableColor
+            signUpButton.isEnabled = true
+            signUpButton.backgroundColor = UIColor.enableColor
         } else {
-            registerButton.isEnabled = false
-            registerButton.backgroundColor = UIColor.disableColor
+            signUpButton.isEnabled = false
+            signUpButton.backgroundColor = UIColor.disableColor
         }
     }
     
@@ -127,9 +127,7 @@ class RegistrantionViewController: BaseViewController {
     }
     
     @objc private func tapOnSignUp() {
-        let vc = RegistrantionViewController()
-        vc.modalPresentationStyle = .fullScreen
-        present(vc, animated: true)
+        print("sign up")
     }
     
     private func endEditingKeyBoard() {
@@ -186,9 +184,9 @@ class RegistrantionViewController: BaseViewController {
         }
     }
     
-    private func layoutSignOutButton() {
-        view.addSubview(registerButton)
-        registerButton.snp.makeConstraints { (make) in
+    private func layoutSignUpButton() {
+        view.addSubview(signUpButton)
+        signUpButton.snp.makeConstraints { (make) in
             make.top.equalTo(passwordTextField.snp.bottom).offset(Dimension.shared.largeMargin)
             make.left.right.equalTo(usernameTextField)
             make.height.equalTo(40)
@@ -198,7 +196,7 @@ class RegistrantionViewController: BaseViewController {
 
 
 // MARK: - UITextFieldDelegate
-extension RegistrantionViewController: UITextFieldDelegate {
+extension SignUpViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true

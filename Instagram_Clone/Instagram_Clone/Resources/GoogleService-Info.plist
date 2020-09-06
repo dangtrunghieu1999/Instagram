@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:27783828872:ios:f9f165e21fe3c62f47d63d</string>
+	<string>1:27783828872:ios:c9ce4bd6f24c944547d63d</string>
 	<key>DATABASE_URL</key>
 	<string>https://instagramclone-b7502.firebaseio.com</string>
 </dict>

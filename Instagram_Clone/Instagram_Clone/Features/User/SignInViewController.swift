@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class SignInViewController: UIViewController {
     
     // MARK: - Varibales
     
@@ -62,7 +62,7 @@ class LoginViewController: UIViewController {
     
     private let signInButton: UIButton = {
         let button = UIButton()
-        button.setTitle(TextManager.signInButton, for: .normal)
+        button.setTitle(TextManager.signIn, for: .normal)
         button.backgroundColor = UIColor.disableColor
         button.layer.masksToBounds = true
         button.setTitleColor(UIColor.white, for: .normal)
@@ -107,7 +107,7 @@ class LoginViewController: UIViewController {
     private let dontHaveAccountButton: UIButton = {
         let button = UIButton(type: .system)
         let attributedTitle = NSMutableAttributedString(string: "Bạn không có tài khoản ư?", attributes: [NSAttributedString.Key.font: UIFont.systemFont(ofSize: FontSize.h1.rawValue), NSAttributedString.Key.foregroundColor: UIColor.lightGray])
-        attributedTitle.append(NSAttributedString(string: "Đăng ký", attributes: [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: FontSize.h1.rawValue), NSAttributedString.Key.foregroundColor: UIColor.enableColor
+        attributedTitle.append(NSAttributedString(string: TextManager.signUp, attributes: [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: FontSize.h1.rawValue), NSAttributedString.Key.foregroundColor: UIColor.enableColor
         ]))
         button.setAttributedTitle(attributedTitle, for: .normal)
         button.addTarget(self, action: #selector(tapOnSignUp), for: .touchUpInside)
@@ -162,34 +162,11 @@ class LoginViewController: UIViewController {
     }
     
     @objc private func tapOnSignIn() {
-        guard let usernameEmail = usernameTextField.text else { return }
-        guard let password = passwordTextField.text else { return }
-    
-        var username: String?
-        var email   : String?
-        
-        if usernameEmail.contains("@"), usernameEmail.contains(".") {
-            email = usernameEmail
-        } else {
-            username = usernameEmail
-        }
-        
-        AuthManager.shared.loginUser(username: username, email: email, password: password) { (success) in
-            DispatchQueue.main.async {
-                if success {
-                    self.dismiss(animated: true, completion: nil)
-                } else {
-                    let alert = UIAlertController(title: "Lỗi đăng nhập", message: "Vui lòng đăng nhập lại", preferredStyle: .alert)
-                    alert.addAction(UIAlertAction(title: "Bỏ qua", style: .cancel, handler: nil))
-                    self.present(alert, animated: true)
-                }
-            }
-        }
-        
+        print("aaa")
     }
     
     @objc private func tapOnSignUp() {
-        let vc = RegistrantionViewController()
+        let vc = SignUpViewController()
         self.present(UINavigationController(rootViewController: vc), animated: true)
     }
     
@@ -302,7 +279,7 @@ class LoginViewController: UIViewController {
 
 
 // MARK: - UITextFieldDelegate
-extension LoginViewController: UITextFieldDelegate {
+extension SignInViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
